@@ -7,8 +7,8 @@ class Post
     @posts
   end
 
-  def author_name(name)
-    if author_name =@name
+  def author_name(name=nil)
+    if self.author
       self.author.name
     else
       nil
