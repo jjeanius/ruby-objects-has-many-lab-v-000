@@ -7,8 +7,9 @@ class Song
   end
 
   def artist_name(name=nil)
-    #song.artist = drake
-    Song.artist = self
-end
+      if self.artist
+        self.artist.name
+    end
+  end
 
 end
