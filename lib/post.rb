@@ -9,5 +9,6 @@ class Post
 
   def author_name(name=nil)
     self.author.name(name)
+    author_name
   end
 end
