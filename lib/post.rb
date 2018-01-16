@@ -8,7 +8,6 @@ class Post
   end
 
   def author_name(name=nil)
-    post.author_name = name
-
+    self.author.name(name)
   end
 end
