@@ -7,7 +7,7 @@ class Post
     @posts
   end
 
-  def author_name(name=nil)
+  def author_name(name)
     if self.author
       self.author.name
     else
