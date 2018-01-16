@@ -10,5 +10,7 @@ class Post
   def author_name(name=nil)
     if author_name = name
       self.author.name(name)
+    end
+  end
 
 end
